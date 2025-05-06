@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 90px;
+    background: white;
+    display: flex;
+    width: 1350px;
+}
+.logo{
+    height: 90px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.logo i{
+    color: green;
+    font-size: 30px;
+}
+.logo h1{
+    color: navy;
+    font-size: 30px;
+}
+.link{
+    height: 90px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 190px;
+    
+}
+.link a{
+    text-decoration: none;
+    color: navy;
+    font-size: 20px;
+}
+.logo-2{
+    float: right;
+    /* border: 2px solid green; */
+    height: 90px;
+    width: 250px;
+    margin-left: 150px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+}
+.logo-2 i{
+    background: lightgrey;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    padding-top: 13px;   
+    padding-left: 12px;
+    border-radius: 10px;
+    color: navy; 
+}
+.main{
+    background-image: url(images/banner-bg.webp);
+    height: 500px;
+    width: 1350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;  
+}
+.content h1{
+    margin-top: 130px;
+
+}
+h1 span{
+    color: green;
+}
+.content p{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;    
+}
+.content button{
+    margin-top: 50px;
+    border: 1px solid blue;
+    height: 30px;
+    width: 100px;
+    margin-left: 200px;
+    border-radius: 5px;
+    background-color: rgba(165, 42, 42, 0);
+}
+button:hover{
+    background: green;
+    color: white;
+}
+.footer{
+    
+    width: 1350px;
+    height: 350px;
+    display: flex;
+}
+.footer-1{
+    
+    width: 290px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.footer h1{
+    margin-top: 10px;
+}
+h1 i{
+    color: green;
+}
+.footer-1 p{
+    padding-top: 40px;
+    font-size: 20px;
+}
+.fb i{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    background: lightgrey;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    color: blue;   
+}
+.contact{
+    
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 290px;
+    height: 300px;
+}
+.contact h1{
+    text-align: center;
+}
+.contact i{
+    padding-left: 60px;
+    margin-top: 25px;
+    color: orange;
+    font-size: 20px;
+}
+.contact span{
+    font-size: 20px;
+}
+.quicklink{
+    
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 290px;
+    height: 300px;
+}
+.quicklink h1{
+    text-align: center;
+}
+.quicklink i{
+    padding-left: 60px;
+    margin-top: 18px;
+    color: orange;
+    font-size: 20px;
+}
+.quicklink span{
+    font-size: 20px;
+}
+.newsletter{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 250px;
+    height: 300px;
+}
+.newsletter span{
+    font-size: 20px;
+}
+.newsletter input{
+    border: none;
+    background-color: lightgray;
+    height: 50px;
+    width: 245px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input::placeholder{
+    color: black;
+}
+.newsletter button{
+    background-color: white;
+    border: 2px solid green;
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: navy;
+}
+button:hover{
+    color: white;
+    background: green;
+}
+span:hover{
+    margin-left: 10px;
+}
